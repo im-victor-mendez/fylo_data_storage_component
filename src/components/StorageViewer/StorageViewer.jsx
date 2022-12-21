@@ -1,4 +1,5 @@
 import React from 'react'
+import StorageMessage from '../StorageMessage/StorageMessage'
 import './StorageViewer.scss'
 
 function StorageViewer() {
@@ -16,6 +17,7 @@ function StorageViewer() {
             <b>0 GB</b>
             <b>1000 GB</b>
         </div>
+        <StorageMessage />
     </section>
   )
 }

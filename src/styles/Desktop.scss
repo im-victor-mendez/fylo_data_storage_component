@@ -1,0 +1,26 @@
+@media (min-width: 800px) {
+    body {
+        background-color: var(--very-dark-blue);
+        background-image: url('../assets/images/bg-desktop.png');
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position-y: bottom;
+    }
+
+    .App {
+        display: flex;
+        align-items: center;
+        gap: 2rem;
+    }
+
+    #storage-viewer {
+        width: 25rem;
+        height: 5rem;
+    }
+
+    #storage-message {
+        position: relative;
+        right: -13rem;
+        bottom: 10rem;
+    }
+}
