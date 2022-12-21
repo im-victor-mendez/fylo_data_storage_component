@@ -1,3 +1,4 @@
+import { motion } from 'framer-motion'
 import React from 'react'
 import StorageMessage from '../StorageMessage/StorageMessage'
 import './StorageViewer.scss'
@@ -8,9 +9,13 @@ function StorageViewer() {
         <p>You've used <b>815 GB</b> of your storage</p>
 
         <div id='storage-bar-background'>
-            <div id='storage-bar'>
+            <motion.div id='storage-bar'
+            initial={{ width: 0 }}
+            animate={{ width: '81.5%' }}
+            transition={{ duration: 1 }}
+            >
                 <div id='dot'></div>
-            </div>
+            </motion.div>
         </div>
 
         <div id='storage-values'>
