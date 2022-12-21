@@ -1,0 +1,26 @@
+#management {
+    background-color: var(--dark-blue);
+
+    display: grid;
+    gap: 1.5rem;
+
+    border-radius: 1rem 5rem 1rem 1rem;
+    padding: 2rem 8rem 2rem 2rem;
+
+    #management-files {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        justify-items: center;
+        align-items: center;
+        gap: 0.5rem;
+
+        img {
+            background-color: var(--very-dark-blue);
+
+            border-radius: 0.5rem;
+            padding: 0.5rem;
+            height: 60%;
+            width: -webkit-fill-available;
+        }
+    }
+}
