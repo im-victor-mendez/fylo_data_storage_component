@@ -1,5 +1,6 @@
 import './App.css'
 import './styles/colors.scss'
+import './styles/fonts.scss'
 import './styles/Mobile.scss'
 import './styles/Desktop.scss'
 import Management from './components/Management/Management'

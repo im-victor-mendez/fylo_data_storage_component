@@ -4,7 +4,7 @@ import './StorageMessage.scss'
 function StorageMessage() {
   return (
     <section id='storage-message'>
-        <b>185</b>
+        <h1>185</h1>
         <p>GB LEFT</p>
     </section>
   )
