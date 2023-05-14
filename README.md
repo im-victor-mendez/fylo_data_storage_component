@@ -11,10 +11,8 @@ This is a solution to the [Fylo data storage component challenge on Frontend Men
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
+  - [How to use](#how-to-use)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 ## Overview
 
